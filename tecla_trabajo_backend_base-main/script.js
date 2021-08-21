@@ -1,7 +1,7 @@
 class car{
 
     constructor(product_name,price_product, code_promo, descuento){
-        this.product_name = { };
+        this.product_name = [];
         this.price_product = 0;
         this.code_promo = false;
         this.descuento = 0;
@@ -16,7 +16,7 @@ class car{
             this.product_name[i] == product_name;
             this.message("Estos son los productos"+this.product_name[i]);
         }
-      
+       
     }
 
     promocion(code_promo){
